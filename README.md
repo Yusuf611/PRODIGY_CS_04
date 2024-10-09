@@ -22,15 +22,11 @@ This project is intended **only for educational purposes**. Misusing this projec
    cd simple-keylogger
 
 Install the required library:
-
-bash
-Copy code
+``bash
 pip install pynput
-Run the keylogger:
-
-bash
-Copy code
+``bash
 python keylogger.py
+
 ✨ Usage
 The keylogger will start logging keystrokes once the program is running.
 All recorded keystrokes will be saved in keylog.txt.
@@ -47,8 +43,3 @@ The project demonstrates:
 How keyloggers can work.
 The importance of cybersecurity awareness.
 How to detect and prevent malicious keyloggers in a real-world scenario.
-📂 Project Structure
-plaintext
-Copy code
-|-- keylogger.py    # Main script that captures and logs keystrokes
-|-- keylog.txt      # Output file where keystrokes are logged
