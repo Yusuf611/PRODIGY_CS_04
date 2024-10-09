@@ -20,20 +20,21 @@ This project is for **educational purposes only**. Unauthorized use of keylogger
 How to Run:
 Clone the repository:
 
-bash
-Copy code
+```bash
 git clone https://github.com/your-username/simple-keylogger.git
 cd simple-keylogger
+```
 Install the pynput library:
 
-bash
-Copy code
+```bash
 pip install pynput
+```
 Run the keylogger:
 
-bash
-Copy code
+```bash
 python keylogger.py
+```
+
 ✨ Usage
 Once the keylogger is running, it will record all keystrokes, including special keys like Enter and Space, and save them in a file called keylog.txt.
 
@@ -42,10 +43,13 @@ Example:
 Run the program using the command python keylogger.py.
 Start typing, and your keystrokes will be logged in the file keylog.txt.
 Press Esc to stop logging.
+
 📚 How It Works
+
 This project uses the pynput library to monitor and capture keyboard inputs in real-time. Every keystroke is logged and written to a text file. The keylogger runs silently in the background and can be stopped by pressing the Esc key.
 
 🎯 Educational Purpose
+
 The project is designed to help people understand:
 
 How keyloggers can be developed and used (both ethically and maliciously).
