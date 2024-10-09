@@ -22,10 +22,8 @@ This project is intended **only for educational purposes**. Misusing this projec
    cd simple-keylogger
 
 Install the required library:
-``bash
 pip install pynput
 
-``bash
 python keylogger.py
 
 ✨ Usage
@@ -35,6 +33,7 @@ Press the Esc key to stop logging.
 Example:
 After running the script, type normally, and your keystrokes will be recorded in the file keylog.txt.
 To stop the keylogger, press Esc.
+
 📚 How it Works
 This program uses the pynput library to monitor keyboard inputs in real-time. Every keystroke is captured and saved to a file. The logger is designed to run silently, with the option to stop logging by pressing Esc.
 
