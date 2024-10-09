@@ -24,6 +24,7 @@ This project is intended **only for educational purposes**. Misusing this projec
 Install the required library:
 ``bash
 pip install pynput
+
 ``bash
 python keylogger.py
 
