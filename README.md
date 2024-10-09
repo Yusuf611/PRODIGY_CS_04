@@ -21,7 +21,7 @@ How to Run:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/simple-keylogger.git
+git clone https://github.com/Yusuf611/simple-keylogger.git
 cd simple-keylogger
 ```
 Install the pynput library:
@@ -36,6 +36,7 @@ python keylogger.py
 ```
 
 ✨ Usage
+
 Once the keylogger is running, it will record all keystrokes, including special keys like Enter and Space, and save them in a file called keylog.txt.
 
 To stop logging, press the Esc key.
